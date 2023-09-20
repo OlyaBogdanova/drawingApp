@@ -13,7 +13,7 @@ const arr = [];
 
 let x;
 let y;
-
+sizeSpan.innerText = size;
 function drawCircle(x, y) {
   ctx.beginPath();
   ctx.arc(x, y, size, 0, Math.PI * 2);
